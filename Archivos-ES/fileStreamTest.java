@@ -18,7 +18,7 @@ public class fileStreamTest
                 int tamano = is.available();
 
                 for(int i = 0; i < tamano; i++)
-                        System.out.print((char)is.read() + "  ");
+                        System.out.print((byte)is.read() + "  ");
                 System.out.print("\n");
                 is.close();
         }
